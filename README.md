@@ -1,7 +1,7 @@
 accent-grid
 ===========
 
-source code etc for Accent Grid, a Chrome extension that gives easy access to accented and special characters
+source code etc for Accent Grid, a Chrome extension that gives easy access to special characters
 
 you can find the extension at http://bitly.com/accentgrid
 
