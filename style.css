@@ -1,0 +1,79 @@
+/* Accent Grid v1.1 style.css  */
+/* stylesheet for popup.html and options.html */
+/* written by bat020@gmail.com, last updated 26 April 2013 */
+
+.button_grid {
+	display: table;
+}
+.button_row {
+	display: table-row;
+}
+.button_cell {
+	display: table-cell;
+}
+.savebuttons{
+	margin-top: 14px;
+}
+
+button {
+	width: 36px;
+	height: 36px;
+	margin: 4px 4px;
+	background-color: #f1f1f1;
+	border-radius: 2px;
+	border: 1px solid #dcdcdc;
+	color: #444444;
+	font: 24px serif;
+}
+button:hover {
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	color: #000000;
+}
+button:active {
+	border: 1px solid #808080;
+}
+button.pressed {
+	background-color: #f8f8f8;
+	border: 1px solid #808080;
+	color: #000000;
+}
+button.options {
+	width: auto;
+	margin: 0px 8px 8px 0px;
+	font: 14px 'Segoe UI', Tahoma, sans-serif;
+	color: #303942;
+	}
+button.options:hover {
+	color: #000000;
+}
+	
+body#options{
+	margin-top: 0px;
+	margin-left: 23px;
+	padding-top: 16px;
+}
+
+h1{
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+	font: 18px 'Segoe UI', Tahoma, sans-serif;
+	color: #303942;
+	border-bottom: 1pt solid #eaeaea;
+}
+
+p{
+	font: 14px 'Segoe UI', Tahoma, sans-serif;
+	color: #303942;
+}
+p#status{
+	font: 12px 'Segoe UI', Tahoma, sans-serif;
+}
+
+input{
+	width: 80px;
+	height: 28px;
+	margin: 0px 8px 8px 0px;
+	padding: 0px 2px;
+	font: 14px monospace;
+	}

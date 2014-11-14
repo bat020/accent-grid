@@ -1,0 +1,18 @@
+{
+	"name": "Accent Grid",
+	"version": "1.1",
+	"manifest_version": 2,
+	"description": "Easy access to accented letters and other special characters.",
+	"icons": { "16": "icons/icon16.png",
+			"48": "icons/icon48.png",
+			"128": "icons/icon128.png" },
+	"browser_action": {
+		"default_icon": {
+			"19": "icons/icon19.png",
+			"38": "icons/icon38.png" },
+		"default_title": "Accent Grid",
+		"default_popup": "popup.html" },
+	"options_page": "options.html",
+	"background": { "page": "background.html" },
+	"permissions": [ "clipboardWrite" ]
+}
